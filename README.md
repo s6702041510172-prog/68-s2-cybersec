@@ -1,7 +1,15 @@
-# Cyber Security
+# 68-s2-cybersec
 
+## Information
 #6702041510172
+-Saranpat Perdchan
+-6702041510172@email.kmutnb.ac.th
 
-Saranpat Perdchan
+## Environment
+cp env.simple .env
 
-s6702041510172@email.kmutnb.ac.th
+## Running service
+
+## Database
+docker compose -f admin.yaml up # monitoring
+docker compose -f admin.yaml up -d # background
